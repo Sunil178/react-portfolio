@@ -1,0 +1,18 @@
+.nav_bg {
+    background-color: black;
+    padding: 30px;
+    position: relative;
+}
+
+.nav_items{
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+}
+
+.nav_items span{
+    color : white;
+    padding: 15px;
+
+
+}
