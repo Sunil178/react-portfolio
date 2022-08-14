@@ -1,8 +1,15 @@
 
 import Navbar from '../widgets/Navbar/Navbar'
+import About from './about'
 
-export default function Home() {
+export default function Home () {
   return (
-      <Navbar/>
+    <>
+      <Navbar />
+      <div className='portfolio-container'>
+        <About />
+      </div>
+    </>
   )
 }
+
