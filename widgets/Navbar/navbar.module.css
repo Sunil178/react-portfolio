@@ -1,0 +1,25 @@
+.nav_bg {
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_bg span{
+    color : white;
+}
+
+.nav_items{
+   
+    margin-top: -10px;
+}
+
+.nav_items span{
+    color : white;
+    padding: 15px;
+}
+
+.nav_items span:hover{
+    border-bottom: 2px solid rgb(226, 11, 183);
+}

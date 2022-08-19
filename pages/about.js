@@ -11,7 +11,7 @@ function About () {
                 <TextWhite>I'm {developer.name}.</TextWhite>
                 <TextGreen>Web Developer</TextGreen>
                 <TextParagraph>To work in an environment where I can utilize my skills and knowledge to make most unique products with any technologies.</TextParagraph>
-                <Button>Hire Me</Button>
+                <Button text="Hire Me"/>
             </div>
         </>
     )
