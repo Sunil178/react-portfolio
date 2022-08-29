@@ -1,15 +1,19 @@
+import Head from "next/head";
+import Header from "../components/Header";
+import About from './about';
 
-import Navbar from '../widgets/Navbar/Navbar'
-import About from './about'
-
-export default function Home () {
+export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className='portfolio-container'>
-        <About />
+    
+      <Head>
+        <title>portfolio</title>
+        <link rel="icon" type="image/ico" href="user.ico" />
+      </Head>
+      <Header />
+      <div className="portfolio-container">
+       <About/>
       </div>
     </>
-  )
+  );
 }
-
