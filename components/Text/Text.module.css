@@ -1,0 +1,32 @@
+
+.text-yellow {
+    color: #ffe600;
+    font-weight: 1000;
+    font-size: 2.7em;
+}
+
+.text-white {
+    color: white;
+    margin-top: 0;
+}
+
+.text-green {
+    color: #59C378;
+    margin-top: 0;
+}
+
+.font-size-4 {
+    font-size: 4em;
+    font-weight: 1000;
+}
+
+.font-size-15 {
+    font-size: 15pt;
+    line-height: 1.4em;
+}
+
+.text_wrapper {
+    width: 40%;
+    height: 100vh;
+}
+
