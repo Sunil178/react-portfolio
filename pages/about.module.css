@@ -1,0 +1,22 @@
+
+.text_wrapper {
+    width: 40vw;
+    height: 50vh;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.text_wrapper h1{
+    color:rgb(203, 13, 194);
+}
+
+.text_wrapper h2{
+    color:rgb(197, 155, 216)
+}
+
+.text_wrapper p{
+    color:whitesmoke;
+    font-size: 15pt;
+    line-height: 1.4em;
+}
