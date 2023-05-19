@@ -1,6 +1,5 @@
-
+import About from './about';
 import Navbar from '../widgets/Navbar/Navbar'
-import About from './about'
 import Skill from './skills/index'
 
 export default function Home () {
@@ -12,6 +11,5 @@ export default function Home () {
         <Skill />
       </div>
     </>
-  )
+  );
 }
-
