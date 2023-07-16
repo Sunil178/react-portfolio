@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import developer from '../config/developer'
 import styles from './navbar.module.css';
 import {
   FaFacebookSquare,
@@ -6,8 +7,7 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -17,6 +17,7 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className={styles.logo}>
           <h2>
+            {/* {developer.name} */}
             <span>T</span>hapa
             <span>T</span>echnical
           </h2>
@@ -29,16 +30,16 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <NavLink to="/about">about</NavLink>
+              <Link href="/about">about</Link>
             </li>
             <li>
-              <NavLink to="/service">services</NavLink>
+              <Link href="/service">services</Link>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <Link href="/contact">contact</Link>
             </li>
           </ul>
         </div>
