@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import About from './about';
 import MyCard from "../components/MyCard";
-import styles from './home.module.css';
+import styles from '../styles/home.module.css';
 import Card from "../components/Card";
 
 export default function Home() {
