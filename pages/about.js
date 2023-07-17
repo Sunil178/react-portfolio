@@ -1,6 +1,6 @@
 import developer from '../config/developer'
-import {Button} from '../components/Button/Button'
-import styles from './about.module.css'
+import {Button} from '../components/Button'
+import styles from '../styles/about.module.css'
 function About () {
     return (
         <>

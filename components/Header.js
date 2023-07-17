@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Link from 'next/link';
-import styles from './header.module.css';
+import styles from '../styles/header.module.css';
 import { navLinks } from "../pages/api/data";
-import { Button } from "./Button/Button";
+import { Button } from './Button';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // import { NavLink } from "react-router-dom";

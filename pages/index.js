@@ -1,15 +1,29 @@
 import About from './about';
-import Navbar from '../widgets/Navbar/Navbar'
-import Skill from './skills/index'
+import MyCard from "../components/MyCard";
+import styles from '../styles/home.module.css';
+import Card from "../components/Card";
 
-export default function Home () {
+export default function Home() {
+  const data = ['01', '02']
   return (
     <>
-      <Navbar />
-      <div className='portfolio-container'>
-        <About />
-        <Skill />
+    
+      <Head>
+        <title>portfolio</title>
+        <link rel="icon" type="image/ico" href="user.ico" />
+      </Head>
+      <Header />
+      <div className= "portfolio-container">
+        <About/>
+       </div>
+     
+     <div className = {styles["section_gap"]}></div>
+
+      <div className = {`${styles.card_container}`}>
+        <Card data={data[1]}/>
       </div>
+    
+      {/* <Card/> */}
     </>
   );
 }
