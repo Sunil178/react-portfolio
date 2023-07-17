@@ -1,29 +1,34 @@
-import About from './about';
+import Head from "next/head";
+import Header from "../components/Header";
 import MyCard from "../components/MyCard";
 import styles from '../styles/home.module.css';
 import Card from "../components/Card";
+import Navbar from "../components/Navbar";
+import Home from "../components/Home";
+import About from "../components/About";
 
-export default function Home() {
-  const data = ['01', '02']
+function App() {
   return (
     <>
-    
-      <Head>
+     <Head>
         <title>portfolio</title>
         <link rel="icon" type="image/ico" href="user.ico" />
       </Head>
-      <Header />
-      <div className= "portfolio-container">
+      <div className="main_container">
+        <Navbar/>
+        <Home/>
         <About/>
-       </div>
-     
-     <div className = {styles["section_gap"]}></div>
-
-      <div className = {`${styles.card_container}`}>
-        <Card data={data[1]}/>
+        <div className="projects_card_section">
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+        </div>
       </div>
-    
-      {/* <Card/> */}
     </>
+
   );
 }
+
+export default App;

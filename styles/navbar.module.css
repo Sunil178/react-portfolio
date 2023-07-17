@@ -1,0 +1,19 @@
+.nav{
+  /* background-color: #000000; */
+  max-width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid black;
+}
+
+.nav_items > ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.nav_items>ul>li{
+  margin: 5px 20px;
+  font-size: 1.5rem;
+}

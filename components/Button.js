@@ -1,11 +1,11 @@
-import styles from '../styles/Button.module.css'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 
-export function Button ({text}) {
+function Button (props) {
     return (
         <>
-            <button className={styles["btn-grad"]} >{text} </button> 
+            <button className="prime_btn">{props.data}</button> 
         </>
     )
 }
+export default Button;
