@@ -1,6 +1,3 @@
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-
-
 function Button (props) {
     return (
         <>

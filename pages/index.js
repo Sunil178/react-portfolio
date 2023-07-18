@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import MyCard from "../components/MyCard";
-import styles from '../styles/home.module.css';
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
-import Home from "../components/Home";
-import About from "../components/About";
+import Intro from "../components/Intro";
+import Tech from "../components/Tech";
+import StickCom from "../components/StickCom";
 
 function App() {
   return (
@@ -16,8 +14,10 @@ function App() {
       </Head>
       <div className="main_container">
         <Navbar/>
-        <Home/>
-        <About/>
+        <StickCom/>
+
+        <Intro/>
+        <Tech/>
         <div className="projects_card_section">
           <Card/>
           <Card/>
@@ -25,6 +25,7 @@ function App() {
           <Card/>
           <Card/>
         </div>
+
       </div>
     </>
 

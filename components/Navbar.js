@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-import Link from 'next/link';
 import styles from '../styles/navbar.module.css';
-import { navLinks } from "../pages/api/data";
 import Button from "./Button";
 import Image from "next/image";
 

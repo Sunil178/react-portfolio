@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/home.module.css";
-const Home = () => {
+const Intro = () => {
     return (
         <div className={styles["home_section"]}>
             <div className={styles["hero_content"]}>
@@ -19,4 +19,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Intro;
