@@ -9,7 +9,7 @@ const Navbar = () => {
       <Image
         src="/logo.png"
         width={90}
-        height={79}
+        height={80}
         alt="logo img"
       />
     </div>
