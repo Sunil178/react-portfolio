@@ -11,7 +11,6 @@ const LanguageCard = (props) =>{
             alt="icon"
             />
         </figure>
-     
         {props.data.name}
     </span>
    )

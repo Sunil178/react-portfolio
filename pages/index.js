@@ -5,6 +5,9 @@ import Intro from "../components/Intro";
 import Tech from "../components/Tech";
 import StickCom from "../components/StickCom";
 import Experience from "../components/Experience";
+import BlogCard from "../components/BlogCard";
+
+
 function App() {
   return (
     <>
@@ -14,7 +17,6 @@ function App() {
       </Head>
       <div className="main_container">
         <Navbar/>
-        <StickCom/>
         <Intro/>
         <Tech/>
         <div className="projects_card_section">
@@ -25,6 +27,8 @@ function App() {
           <Card/>
         </div>
       <Experience/>
+      {/* <StickCom/>  */}
+      <BlogCard/>
       </div>
     </>
 
