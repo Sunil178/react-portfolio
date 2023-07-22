@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Card from "../components/Card";
+import ProjectCard from "../components/ProjectCard";
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import Tech from "../components/Tech";
@@ -19,16 +19,10 @@ function App() {
         <Navbar/>
         <Intro/>
         <Tech/>
-        <div className="projects_card_section">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-        </div>
-      <Experience/>
-      {/* <StickCom/>  */}
-      <BlogCard/>
+        <ProjectCard/>
+        <Experience/>
+        <BlogCard/>
+        <StickCom/>
       </div>
     </>
 

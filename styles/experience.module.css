@@ -1,20 +1,15 @@
 .exper_section {
-    /* border: 10px solid black; */
     background-color: rgb(242, 242, 242);
     padding: 20px;
     display:grid;
     width: 100%;
     justify-content: center;
     flex-direction: column;
-
 }
 
-.exper_detail {
-    --width: 80%;
-}
 .exper_detail {
     margin: 10px;
-    width: var(--width);
+    width: 80%;
     height: auto;
     background-color: #ffff;
     border: 4px solid rgb(3, 3, 171);
@@ -24,10 +19,8 @@
 }
 
 .exper_detail {
-    /* margin-left: calc(var(--width) + var(--elem_num)); */
     margin-left: var(--elem_num);
 }
-
 
 .exper_detail:before {
     content: "";
@@ -36,5 +29,11 @@
     width:25px;
     height:25px;
     transform:rotate(45deg);
-    background-color:#000; /* to see where it is */
-  }
+    background-color:#000;
+}
+
+@media (max-width: 767px) {
+    .exper_detail {
+        margin-left: initial;
+    }
+}

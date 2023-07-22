@@ -31,63 +31,20 @@ const Tech = () => {
         img: '/javascript_icon.svg'
     },
     {
-        id: "01",
+        id: "03",
         name: 'nodejs',
         color: 'green',
         img: '/nodejs_icon.svg'
     },
     {
-        id: "01",
+        id: "04",
         name: 'Java',
         color: 'orange',
         img: '/java_icon.svg'
-    },
-    {
-        id: "02",
-        name: 'JavaScript',
-        color:'green',
-        img: '/javascript_icon.svg'
-    },
-    {
-        id: "01",
-        name: 'nodejs',
-        color: 'green',
-        img: '/nodejs_icon.svg'
-    },
-   
-    {
-        id: "02",
-        name: 'JavaScript',
-        color:'green',
-        img: '/javascript_icon.svg'
-    },
-    {
-        id: "01",
-        name: 'nodejs',
-        color: 'green',
-        img: '/nodejs_icon.svg'
-    },
-    {
-        id: "01",
-        name: 'Java',
-        color: 'orange',
-        img: '/java_icon.svg'
-    },
-    {
-        id: "02",
-        name: 'JavaScript',
-        color:'green',
-        img: '/javascript_icon.svg'
-    },
-    {
-        id: "01",
-        name: 'nodejs',
-        color: 'green',
-        img: '/nodejs_icon.svg'
     },
    ]
     return(
-        <div className="about_section">
+        <div className="tech_section">
            {
             languages.map((lang)=>{
                 return (

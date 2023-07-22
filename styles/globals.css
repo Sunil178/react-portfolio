@@ -8,7 +8,19 @@ body {
   /* background-color: #1E1E1E; */
 }
 
-.prime_btn{
+header{
+  position: sticky;
+  z-index: 30;
+  top: 0;
+}
+
+.vl {
+  border-left: 6px solid rgb(8, 8, 8);
+  height: 12em;
+  margin-left: 25px;
+}
+
+.prime_btn {
   background-color: rgb(190, 8, 156);
   padding: 15px 20px;
   font-weight: 600;
@@ -18,13 +30,13 @@ body {
   border-radius: 30px;
   letter-spacing: 1px;
 }
-.prime_btn:hover{
+.prime_btn:hover {
   background-color: white;
   border: 2px solid rgb(190,8,156);
   color:rgb(190,8,156);
   transition: 1s ease;
 }
-.projects_card_section{
+.projects_card_section {
   width: 80%;
   margin: auto;
   display: flex;
@@ -34,9 +46,10 @@ body {
   flex-wrap: wrap;
 }
 
-.about_section{
+.tech_section {
   background-color: #f7f7f7;
   padding: 20px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,17 +58,17 @@ body {
 }
 
 
-.mini_card{
+.mini_card {
   /* background-color: rgb(56, 248, 18); */
   padding: 10px 15px;
   margin: 10px 10px;
   font-size: 1.4rem;
   font-weight: 600;
   border-radius: 10px;
-  width: 20%;
+  min-width: 10em;
  
 }
-.tech_icon{
+.tech_icon {
   padding: 0px;
   margin: 0px 15px 0px 2px;
   display: inline;
@@ -65,7 +78,7 @@ body {
   box-sizing: border-box;
 }
 
-.stick_left{
+.stick_left {
   position: sticky;
   bottom: 0;
   background-color: rgb(225, 225, 225);
@@ -73,7 +86,7 @@ body {
   margin-left: 10px;
   padding-top: 10px;
 }
-.soc-icon{
+.soc-icon {
  font-size: 3rem;
  margin: 0px 0px 10px 5px;
 }
@@ -109,6 +122,3 @@ body {
     background: black;
   }
 } */
-
-
-
