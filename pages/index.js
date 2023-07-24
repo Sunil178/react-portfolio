@@ -6,7 +6,7 @@ import Tech from "../components/Tech";
 import StickCom from "../components/StickCom";
 import Experience from "../components/Experience";
 import BlogCard from "../components/BlogCard";
-
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
         <Experience/>
         <BlogCard/>
         <StickCom/>
+        <Footer/>
       </div>
     </>
 

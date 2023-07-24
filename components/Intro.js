@@ -8,12 +8,12 @@ const Intro = () => {
                 <h2>Website Developer</h2>
             </div>
             <div className={styles["hero_image"]}>
-            <Image
-             src="/hero.svg"
-             height={650}
-             width={500}
-             alt="hero image"
-            />
+                <Image
+                src="/hero.svg"
+                height={650}
+                width={500}
+                alt="hero image"
+                />
             </div>
         </div>
     )
