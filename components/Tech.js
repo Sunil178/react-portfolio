@@ -1,9 +1,11 @@
-import Image from "next/image"
+import Image from "next/image";
+import Title from "./Title";
+import styles from '../styles/tech.module.css'
 
 const LanguageCard = (props) =>{
    return (
-    <span className="mini_card" style={{border: `5px solid ${props.data.color}`}}>
-        <figure className="tech_icon">
+    <span className={styles["mini_card"]} style={{border: `5px solid ${props.data.color}`}}>
+        <figure className={styles["tech_icon"]}>
             <Image
             src={props.data.img}
             height={30}
@@ -43,15 +45,18 @@ const Tech = () => {
         img: '/java_icon.svg'
     },
    ]
-    return(
-        <div className="tech_section">
-           {
-            languages.map((lang)=>{
-                return (
-                    <LanguageCard key={lang.id} data={lang} />
-                )
-            })
-           }
+    return (
+        <div className='section_title sec_color'>
+        <Title data="Tech Stack"/>
+            <div className={styles["tech_section_body"]}>
+            {
+                languages.map((lang)=>{
+                    return (
+                        <LanguageCard key={lang.id} data={lang} />
+                    )
+                })
+            }
+            </div>
         </div>
     )
 }

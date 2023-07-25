@@ -8,17 +8,18 @@ body {
   /* background-color: #1E1E1E; */
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 header{
   position: sticky;
   z-index: 30;
   top: 0;
 }
 
-.vl {
-  border-left: 6px solid rgb(8, 8, 8);
-  height: 12em;
-  margin-left: 25px;
-}
+
 
 .prime_btn {
   background-color: rgb(190, 8, 156);
@@ -36,47 +37,6 @@ header{
   color:rgb(190,8,156);
   transition: 1s ease;
 }
-.projects_card_section {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.tech_section {
-  background-color: #f7f7f7;
-  padding: 20px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-
-.mini_card {
-  /* background-color: rgb(56, 248, 18); */
-  padding: 10px 15px;
-  margin: 10px 10px;
-  font-size: 1.4rem;
-  font-weight: 600;
-  border-radius: 10px;
-  min-width: 10em;
- 
-}
-.tech_icon {
-  padding: 0px;
-  margin: 0px 15px 0px 2px;
-  display: inline;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .stick_left {
   position: sticky;
@@ -86,53 +46,26 @@ header{
   margin-left: 10px;
   padding-top: 10px;
 }
+
+.vl {
+  border-left: 6px solid rgb(8, 8, 8);
+  height: 12em;
+  margin-left: 25px;
+}
+
 .soc-icon {
  font-size: 3rem;
  margin: 0px 0px 10px 5px;
 }
 
-
-
-.footer-section{
-  width: 100%;
-  height: 10%;
-  background-color: rgb(6, 6, 6);
-  margin-top: auto;
-  color:white;
+.section_title {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0em;
 }
 
-.footer-section > ul > li {
-  display: inline;
-  margin: 10px;
-  padding: 10px;
+.sec_color{
+  background-color:rgb(242, 242, 242);
 }
-
-
-
-/* .blog-card-body{
-  width: 19vw;
-  height: 140px;
-  border: 1px solid rgb(0, 8, 0);
-} */
-
-/* .blog-card-body {
-  position:absolute;
-  margin: -20px 0px 0px -40px;
-  border: 1px solid black;
-  width: 90%;
-  height: 90%;
-} */
-
-
-/* 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */

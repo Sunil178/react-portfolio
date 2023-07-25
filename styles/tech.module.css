@@ -1,0 +1,36 @@
+
+
+.tech_section {
+    background-color: #f7f7f7; 
+    padding: 0px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tech_section_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  .mini_card {
+    /* background-color: rgb(56, 248, 18); */
+    padding: 10px 15px;
+    margin: 10px 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 10px;
+    min-width: 10em;
+   
+  }
+  .tech_icon {
+    padding: 0px;
+    margin: 0px 15px 0px 2px;
+    display: inline;
+  }
+  

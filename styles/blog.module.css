@@ -1,3 +1,10 @@
+.blog_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .blog-section {
   width: 80%;
   margin: auto;
@@ -10,11 +17,10 @@
 
 
 .blog-card {
-    min-width: 20em;
+    min-width: 18em;
     height: auto; 
-    margin: 50px 0px 20px 0px;
+    margin: 2em 2em;
     word-wrap: break-word;
-
     border: 1px solid black;
     position: relative;
    

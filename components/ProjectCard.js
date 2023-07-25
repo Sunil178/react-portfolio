@@ -1,14 +1,17 @@
 import styles from '../styles/card.module.css';
-
+import Title from './Title';
 const ProjectCard = () => {
-  return (
-  <div className="projects_card_section">
-   <Card/>
-   <Card/>
-   <Card/>
-   <Card/>
-   <Card/>
-  </div>
+  return(
+    <div className='section_title'>
+    <Title data="Projects"/>
+      <div className={styles["projects_card_section"]}>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
+    </div>
   );
 }
 

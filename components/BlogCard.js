@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Title from './Title';
 import styles from '../styles/blog.module.css';
 
 const OneCard = ({num}) => {
@@ -27,6 +27,8 @@ const OneCard = ({num}) => {
 
 const BlogCard = () => {
     return(
+        <div className='section_title'>
+        <Title data="Blog"/>
         <div className={styles["blog-section"]}>
             <OneCard num={'01'}/>
             <OneCard num={'02'}/>
@@ -37,7 +39,7 @@ const BlogCard = () => {
             <OneCard num={'07'}/>
             <OneCard num={'08'}/>
         </div>
-        
+        </div>
     )
 }
 
