@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Title from "./Title";
-import styles from '../styles/tech.module.css'
+import styles from '../styles/tech.module.css';
+import techstack from "../config/techstack";
 
 const LanguageCard = (props) =>{
    return (
@@ -19,38 +20,13 @@ const LanguageCard = (props) =>{
 }
 
 const Tech = () => {
-   const languages = [
-    {
-        id: "01",
-        name: 'Java',
-        color: 'orange',
-        img: '/java_icon.svg'
-    },
-    {
-        id: "02",
-        name: 'JavaScript',
-        color:'green',
-        img: '/javascript_icon.svg'
-    },
-    {
-        id: "03",
-        name: 'nodejs',
-        color: 'green',
-        img: '/nodejs_icon.svg'
-    },
-    {
-        id: "04",
-        name: 'Java',
-        color: 'orange',
-        img: '/java_icon.svg'
-    },
-   ]
+   
     return (
         <div className='section_title sec_color'>
         <Title data="Tech Stack"/>
             <div className={styles["tech_section_body"]}>
             {
-                languages.map((lang)=>{
+                techstack.map((lang)=>{
                     return (
                         <LanguageCard key={lang.id} data={lang} />
                     )

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import NavItem from './NavItem';
 import Button from './Button';
+import Image from 'next/image';
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -19,7 +20,13 @@ const Navbar = () => {
       <nav className={styles['nav']}>
         <Link href={"/"}>
           <a>
-            <h1 className={styles["logo"]}>Portfolio</h1>
+            {/* <h1 className={styles["logo"]}>Portfolio</h1> */}
+            <Image
+              src="/prog_logo.png"
+              width={80}
+              height={80}
+              alt='logo'
+            />
           </a>
         </Link>
         <div
