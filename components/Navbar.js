@@ -1,9 +1,10 @@
 import styles from '../styles/navbar.module.css';
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavItem from './NavItem';
 import Button from './Button';
 import Image from 'next/image';
+import { PropaneSharp } from '@mui/icons-material';
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -14,16 +15,21 @@ const MENU_LIST = [
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
+  const [theme, setTheme] = useState('dark-theme');
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+  const changeTheme = () => setTheme(theme == 'dark-theme' ? 'light-theme' : 'dark-theme');
 
   return (
     <header className='header'>
       <nav className={styles['nav']}>
         <Link href={"/"}>
           <a>
-            {/* <h1 className={styles["logo"]}>Portfolio</h1> */}
             <Image
-              src="/prog_logo.png"
-              width={80}
+              src="/test.png"
+              width={120}
               height={80}
               alt='logo'
             />
@@ -38,6 +44,7 @@ const Navbar = () => {
           <div></div>
         </div>
         <div className={`${navActive ? styles.active : ""} ${styles['nav__menu-list']}`}>
+          <button onClick={() => changeTheme()}>theme</button>
           {MENU_LIST.map((menu, idx) => (
             <div
               onClick={() => {

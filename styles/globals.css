@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Ysabeau+Infant:wght@500&family=Ysabeau:ital,wght@1,300&display=swap');
-html,
-body {
+
+.light-theme {
+  --primary-color: #fff;
+  --secondary-color:#f0f0f0;
+  --text-color:#000;
+  --bg-card:#fff;
+  --btn-color:#9422affc;
+}
+
+.dark-theme {
+  --primary-color: #191824f7;
+  --secondary-color:#111421;
+  --text-color:#f5f5fc;
+  --bg-card:#0b0707;
+  --btn-color:#9422affc;
+}
+
+html, body {
   padding: 0;
   margin: 0;
   font-family: 'Ysabeau Infant', sans-serif;
-  /* background-color: #1F2933; */
 }
 
 * {
@@ -18,10 +33,8 @@ header {
   top: 0;
 }
 
-
-
 .prime_btn {
-  background-color: rgb(190, 8, 156);
+  background-color: var(--btn-color);
   padding: 15px 20px;
   font-weight: 600;
   font-size: 1.1rem;
@@ -40,14 +53,14 @@ header {
 .stick_left {
   position: sticky;
   bottom: 0;
-  background-color: rgb(225, 225, 225);
+  background-color: var(--bg-card);
   width: 60px;
   margin-left: 10px;
   padding-top: 10px;
 }
 
 .vl {
-  border-left: 6px solid rgb(8, 8, 8);
+  border-left: 6px solid var(--text-color);
   height: 12em;
   margin-left: 25px;
 }
@@ -63,8 +76,11 @@ header {
   align-items: center;
   justify-content: center;
   padding: 2em 0em;
+  background-color: var(--primary-color);
+  color:var(--text-color);
 }
 
 .sec_color {
-  background-color:rgb(242, 242, 242);
+  background-color: var(--secondary-color);
+  color:var(--text-color);
 }

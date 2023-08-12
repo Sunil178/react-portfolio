@@ -1,7 +1,7 @@
 import Head from "next/head";
 import ProjectCard from "../components/ProjectCard";
 import Navbar from "../components/Navbar";
-import Home from "../components/Home";
+import Hero from "../components/Hero";
 import Tech from "../components/Tech";
 import StickCom from "../components/StickCom";
 import Experience from "../components/Experience";
@@ -17,7 +17,7 @@ function App() {
       </Head>
       <div className="main_container">
         <Navbar/>
-        <Home/>
+        <Hero/>
         <Tech/>
         <ProjectCard/>
         <Experience/>

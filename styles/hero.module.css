@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .bold_txt {
