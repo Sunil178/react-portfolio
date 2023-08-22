@@ -1,7 +1,11 @@
 function Button (props) {
     return (
         <>
-            <button className="prime_btn">{props.data}</button> 
+        <a href="./resume/ANNU_PODDAR_CV.pdf" download>
+            <button className="prime_btn">
+                {props.data}
+            </button> 
+        </a>
         </>
     )
 }

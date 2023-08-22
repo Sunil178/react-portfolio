@@ -6,6 +6,8 @@
   --text-color:#000;
   --bg-card:#fff;
   --btn-color:#9422affc;
+  --stic-back:#ebeaea;
+  --github:black;
 }
 
 .dark-theme {
@@ -14,6 +16,8 @@
   --text-color:#f5f5fc;
   --bg-card:#0b0707;
   --btn-color:#9422affc;
+  --stic-back:black;
+  --github:#f0f0f0;
 }
 
 html, body {
@@ -42,6 +46,7 @@ header {
   border: none;
   border-radius: 30px;
   letter-spacing: 1px;
+  cursor:pointer;
 }
 .prime_btn:hover {
   background-color: white;
@@ -52,8 +57,9 @@ header {
 
 .stick_left {
   position: sticky;
+  overflow-x:auto;
   bottom: 0;
-  background-color: var(--bg-card);
+  background-color: var(--stic-back);
   width: 60px;
   margin-left: 10px;
   padding-top: 10px;

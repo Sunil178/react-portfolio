@@ -5,6 +5,7 @@ import NavItem from './NavItem';
 import Button from './Button';
 import Image from 'next/image';
 import { PropaneSharp } from '@mui/icons-material';
+import { Switch } from '@mui/material';
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -28,9 +29,9 @@ const Navbar = () => {
         <Link href={"/"}>
           <a>
             <Image
-              src="/test.png"
-              width={120}
-              height={80}
+              src="/lg.png"
+              width={100}
+              height={100}
               alt='logo'
             />
           </a>
@@ -44,7 +45,7 @@ const Navbar = () => {
           <div></div>
         </div>
         <div className={`${navActive ? styles.active : ""} ${styles['nav__menu-list']}`}>
-          <button onClick={() => changeTheme()}>theme</button>
+        <input onClick={() => changeTheme()} type="checkbox" id="checkbox" className={styles.checkbox} />
           {MENU_LIST.map((menu, idx) => (
             <div
               onClick={() => {

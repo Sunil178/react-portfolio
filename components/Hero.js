@@ -8,7 +8,7 @@ const Hero = () => {
                 <h1>Hello I am Annu Poddar</h1>
                 <h2>Software Developer | Senior Software Engineer</h2>
                 <h3>With more than<span className={styles['bold_txt']}> 3 Years </span> of Experience </h3>
-                <Button data="Download Resume"/>
+                <Button data="Download Resume" />
             </div>
             <div className={styles["hero_image"]}>
                 <Image
