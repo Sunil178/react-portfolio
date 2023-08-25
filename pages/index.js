@@ -16,14 +16,14 @@ function App() {
         <link rel="icon" type="image/ico" href="user.ico" />
       </Head>
       <div className="main_container">
-        <Navbar/>
-        <Hero/>
-        <Tech/>
-        <ProjectCard/>
-        <Experience/>
-        <BlogCard/>
-        <StickCom/>
-        <Footer/>
+        <Navbar />
+        <Hero />
+        <Tech />
+        <ProjectCard />
+        <Experience />
+        <BlogCard />
+        <StickCom />
+        <Footer />
       </div>
     </>
 

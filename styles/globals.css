@@ -56,13 +56,14 @@ header {
 }
 
 .stick_left {
-  position: sticky;
+  position: fixed;
   overflow-x:auto;
   bottom: 0;
   background-color: var(--stic-back);
   width: 60px;
   margin-left: 10px;
   padding-top: 10px;
+  z-index: 9999;
 }
 
 .vl {
@@ -84,6 +85,7 @@ header {
   padding: 2em 0em;
   background-color: var(--primary-color);
   color:var(--text-color);
+  scroll-margin-top: 60px;
 }
 
 .sec_color {

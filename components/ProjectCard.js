@@ -3,7 +3,7 @@ import projects from '../config/projects';
 import Title from './Title';
 const ProjectCard = () => {
   return(
-    <div className='section_title'>
+    <div className='section_title' id="project">
     <Title data="Projects"/>
       <div className={styles["projects_card_section"]}>
       {
@@ -13,8 +13,6 @@ const ProjectCard = () => {
           )
         })
       }
-
-       
       </div>
     </div>
   );

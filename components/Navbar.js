@@ -8,9 +8,10 @@ import { PropaneSharp } from '@mui/icons-material';
 import { Switch } from '@mui/material';
 
 const MENU_LIST = [
-  { text: "Home", href: "/" },
-  { text: "About Us", href: "/about" },
-  { text: "Contact", href: "/contact" },
+  { text: "Home", href: "#" },
+  { text: "About Us", href: "#about" },
+  { text: "Contact", href: "#contact" },
+  { text: "Project", href: "#project" },
 ];
 
 const Navbar = () => {
