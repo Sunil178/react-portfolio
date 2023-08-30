@@ -8,6 +8,7 @@
   --btn-color:#9422affc;
   --stic-back:#ebeaea;
   --github:black;
+  --bg-proj-card:#2a2b2f;
 }
 
 .dark-theme {
@@ -18,6 +19,7 @@
   --btn-color:#9422affc;
   --stic-back:black;
   --github:#f0f0f0;
+  --bg-proj-card:#0b0707;
 }
 
 html, body {
@@ -49,10 +51,8 @@ header {
   cursor:pointer;
 }
 .prime_btn:hover {
-  background-color: white;
-  border: 2px solid rgb(190,8,156);
-  color:rgb(190,8,156);
   transition: 1s ease;
+  background-color: #ee78f7;
 }
 
 .stick_left {

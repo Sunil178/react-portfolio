@@ -27,7 +27,7 @@ const OneCard = ({num}) => {
 
 const BlogCard = () => {
     return(
-        <div className='section_title'>
+        <div className='section_title' id='blog'>
         <Title data="Blog"/>
         <div className={styles["blog-section"]}>
             <OneCard num={'01'}/>

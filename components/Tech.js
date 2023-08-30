@@ -20,9 +20,8 @@ const LanguageCard = (props) =>{
 }
 
 const Tech = () => {
-   
     return (
-        <div className='section_title sec_color'>
+        <div className='section_title sec_color' id="techstack">
         <Title data="Tech Stack"/>
             <div className={styles["tech_section_body"]}>
             {

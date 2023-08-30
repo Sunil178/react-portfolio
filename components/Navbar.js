@@ -9,8 +9,8 @@ import { Switch } from '@mui/material';
 
 const MENU_LIST = [
   { text: "Home", href: "#" },
-  { text: "About Us", href: "#about" },
-  { text: "Contact", href: "#contact" },
+  { text: "Tech Stack", href: "#techstack" },
+  { text: "Blog", href: "#blog" },
   { text: "Project", href: "#project" },
 ];
 

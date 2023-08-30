@@ -24,6 +24,7 @@
     font-weight: 600;
     border-radius: 10px;
     min-width: 10em;
+    background-color: var(--bg-card);
    
   }
   .tech_icon {
